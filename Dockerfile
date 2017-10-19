@@ -17,7 +17,7 @@ ARG jdk_tmp="/tmp/${jdk_filename}"
 
 # download java, accepting the license agreement
 RUN wget --no-cookies --header "Cookie: oraclelicense=accept-securebackup-cookie" -O ${jdk_tmp} ${jdk_url}
-RUN echo "${jdk_filemd5} ${jdk_tmp} " | md5sum -c
+RUN echo "${jdk_filemd5} ${jdk_tmp}" | md5sum -c
 
 RUN tar -zxf ${jdk_tmp}  -C /opt/ \
         && ln -s /opt/jdk${java_version} ${JAVA_HOME}
