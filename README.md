@@ -14,8 +14,9 @@ By default, will display the maven version.
 # Custom Maven Home
 
 ```
-docker run -v /path/to/maven_home:/opt/maven kemixkoo/debian-maven
+docker run -d -v /path/to/maven_home:/opt/maven -it kemixkoo/debian-maven /bin/bash
 ```
+Will be in deamon mode with custom Maven home
 
 
 # Building
