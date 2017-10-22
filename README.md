@@ -1,6 +1,6 @@
 # Debian Maven Image
 
-Based on [kemixkoo/debian-git-svn:buster-slim](https://hub.docker.com/r/kemixkoo/debian-git-svn/)
+Based on [kemixkoo/debian-git-svn](https://hub.docker.com/r/kemixkoo/debian-git-svn/)
 
 
 # Usage
