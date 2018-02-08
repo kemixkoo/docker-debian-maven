@@ -1,6 +1,8 @@
 # Debian Maven Image
 
-Based on [kemixkoo/debian-git-svn](https://hub.docker.com/r/kemixkoo/debian-git-svn/)
+Based on 
+- DockerHub, [kemixkoo/jenkins-git-svn](https://hub.docker.com/r/kemixkoo/jenkins-git-svn/) 
+- GitHub, [kemixkoo/docker-jenkins-git-svn](https://github.com/kemixkoo/docker-jenkins-git-svn)
 
 
 # Usage
